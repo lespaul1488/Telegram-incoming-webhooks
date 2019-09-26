@@ -26,7 +26,8 @@ defmodule TgWebhooksBot.MixProject do
       {:plug, "~> 1.4"},
       {:poison, "~> 3.1"},
       {:nadia, "~> 0.4.2"},
-      {:distillery, "~> 1.5", runtime: false}
+      {:distillery, "~> 1.5", runtime: false},
+      {:erlport, "~> 0.9"}
     ]
   end
 end
